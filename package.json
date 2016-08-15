@@ -6,11 +6,17 @@
   "nativescript": {
     "id": "org.nativescript.remotegarage",
     "tns-ios": {
-      "version": "2.1.0"
+      "version": "2.2.0"
     },
     "tns-android": {
-      "version": "2.1.0"
+      "version": "2.2.0"
     }
+  },
+  "scripts": {
+    "start-android": "tns run android --emulator",
+    "start-ios": "tns run ios --emulator",
+    "watch-android": "tns livesync android --emulator --watch",
+    "watch-ios": "tns livesync ios --emulator --watch"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
