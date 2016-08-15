@@ -1,18 +1,29 @@
 {
-  "folders": [{
-    "path": "./",
-    "name": "Repo",
-    "file_exclude_patterns": [
-      "app/*.js",
-      "app/*.map"
-    ]
-  }, {
-    "path": "../sample-Groceries",
-    "name": "Sample Groceries"
-  }, {
-    "path": "../remote-garage-backup",
-    "name": "Old Structure"
-  }],
-  "settings": {
-  }
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"app/*.js",
+				"app/*.map"
+			],
+			"name": "Repo",
+			"path": "."
+		},
+		{
+			"path": "/Volumes/HHD/SideProjects/angular2-seed-advanced",
+      "name": "Advanced Seed"
+		},
+    {
+      "name": "Sample Groceries",
+      "path": "/Volumes/HHD/SideProjects/ngNative/DrupalCourse/sample-Groceries"
+    },
+    {
+      "name": "Old Structure",
+      "path": "/Volumes/HHD/SideProjects/ngNative/DrupalCourse/remote-garage-backup"
+    }
+	],
+	"settings":
+	{
+	}
 }
