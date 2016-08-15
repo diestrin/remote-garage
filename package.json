@@ -1,8 +1,6 @@
 {
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
+  "description": "Remote Garage application for iOS/Android with Nativescript",
+  "repository": "git@github.com:diestrin/remote-garage.git",
   "nativescript": {
     "id": "org.nativescript.remotegarage",
     "tns-ios": {
