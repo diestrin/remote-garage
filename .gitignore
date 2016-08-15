@@ -12,3 +12,4 @@ lib
 
 *.tgz
 .DS_Store
+*.sublime-workspace

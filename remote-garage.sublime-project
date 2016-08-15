@@ -1,0 +1,18 @@
+{
+  "folders": [{
+    "path": "./",
+    "name": "Repo",
+    "file_exclude_patterns": [
+      "app/*.js",
+      "app/*.map"
+    ]
+  }, {
+    "path": "../sample-Groceries",
+    "name": "Sample Groceries"
+  }, {
+    "path": "../remote-garage-backup",
+    "name": "Old Structure"
+  }],
+  "settings": {
+  }
+}
