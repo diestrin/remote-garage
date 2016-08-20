@@ -1,3 +1,8 @@
-<StackLayout>
-  <Label [text]="'Hello!'"></Label>
-</StackLayout>
+<GridLayout columns="*, auto, *" rows="*, auto, *"
+  [class.garage-open]="(garageStatus$ | async).status"
+  [class.garage-close]="!(garageStatus$ | async).status">
+  <Label row="1" col="1"
+    class="current-status"
+    (tap)="toggleGarageState()"
+    [text]="(garageStatus$ | async).label"></Label>
+</GridLayout>

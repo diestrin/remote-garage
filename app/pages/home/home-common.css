@@ -1,0 +1,1 @@
+.garage-close{color:#DDD;animation-name:close;animation-duration:0.5s;animation-fill-mode:forwards}.garage-open{color:#666;animation-name:open;animation-duration:0.5s;animation-fill-mode:forwards}.current-status{padding:20px}@keyframes open{from{background-color:#666}to{background-color:#DDD}}@keyframes close{from{background-color:#DDD}to{background-color:#666}}

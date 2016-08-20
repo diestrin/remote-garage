@@ -1,0 +1,39 @@
+@import "shared/styles/variables.scss";
+
+.garage-close {
+  color: $open-color;
+  animation-name: close;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.garage-open {
+  color: $close-color;
+  animation-name: open;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.current-status {
+  padding: 20px;
+}
+
+@keyframes open {
+  from {
+    background-color: $close-color;
+  }
+
+  to {
+    background-color: $open-color;
+  }
+}
+
+@keyframes close {
+  from {
+    background-color: $open-color;
+  }
+
+  to {
+    background-color: $close-color;
+  }
+}
