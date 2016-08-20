@@ -7,6 +7,8 @@ typings
 
 app/**/*.js
 app/**/*.map
+app/pages/**/*.css
+app/shared/**/*.css
 platforms
 lib
 
