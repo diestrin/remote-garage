@@ -22,11 +22,6 @@
     "component-class-suffix": false,
     "directive-class-suffix": false,
 
-    "align": [
-      true,
-      "parameters",
-      "statements"
-    ],
     "class-name": true,
     "comment-format": [
       true,
