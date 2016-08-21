@@ -1,4 +1,5 @@
 <GridLayout columns="*, auto, *" rows="*, auto, *"
+  (swipe)="goToSettings($event)"
   [class.garage-open]="(garageStatus$ | async).status"
   [class.garage-close]="!(garageStatus$ | async).status">
   <Button row="1" col="1"
