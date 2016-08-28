@@ -2,7 +2,7 @@
   "description": "Remote Garage application for iOS/Android with Nativescript",
   "repository": "git@github.com:diestrin/remote-garage.git",
   "nativescript": {
-    "id": "org.nativescript.remotegarage",
+    "id": "com.diegobarahona.remotegarage",
     "tns-ios": {
       "version": "2.2.0"
     },

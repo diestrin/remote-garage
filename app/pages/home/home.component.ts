@@ -15,7 +15,7 @@ import {
 @Component({
   selector: 'rg-home',
   templateUrl: 'pages/home/home.html',
-  styleUrls: ['pages/home/home-common.css', 'pages/home/home.css'],
+  styleUrls: ['pages/home/home-common.css'],
   pipes: [AsyncPipe],
   changeDetection: ChangeDetectionStrategy.OnPush
 })

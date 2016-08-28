@@ -10,7 +10,7 @@ export const setStatusBarColors = () => {
     const AppDelegate = UIResponder.extend({
       applicationDidFinishLaunchingWithOptions: () => {
         UIApplication.sharedApplication().statusBarStyle =
-          (UIStatusBarStyle as any).LightContent;
+          UIStatusBarStyle.UIStatusBarStyleLightContent;
 
         return true;
       }
