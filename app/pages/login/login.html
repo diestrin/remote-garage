@@ -1,0 +1,25 @@
+<GridLayout class="background">
+  <StackLayout
+    class="initial-container">
+    <Image
+      src="res://app_logo"
+      stretch="none"
+      class="initial-logo"></Image>
+
+    <Label
+      text="Remote Garage Control"
+      class="initial-label"></Label>
+
+    <Label
+      text="Login with"
+      class="initial-label-description"></Label>
+
+    <StackLayout
+      (tap)="login()"
+      class="initial-button">
+      <Label
+        text="Google"
+        class="initial-button-label"></Label>
+    </StackLayout>
+  </StackLayout>
+</GridLayout>

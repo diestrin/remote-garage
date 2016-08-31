@@ -1,13 +1,13 @@
 // lib imports
-import 'core-js/fn/object/assign';
+import {Injectable} from '@angular/core';
 import {ReplaySubject} from 'rxjs/ReplaySubject';
 // src imports
 import {Reducer, IReducerAction, IReduceCases} from '../reducer/reducer';
 
 export enum GateActions {
-  OPEN = <any>(() => true),
-  CLOSE = <any>(() => false),
-  TOGGLE = <any>(state => !state)
+  OPEN,
+  CLOSE,
+  TOGGLE
 };
 
 export interface IGateAction extends IReducerAction {
@@ -22,6 +22,7 @@ export const INITIAL_GATE_STATE: IGateState = {
   status: false
 };
 
+@Injectable()
 export class GateService extends Reducer<IGateState> {
   public dispatcher: ReplaySubject<IGateAction>;
 

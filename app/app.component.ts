@@ -2,6 +2,7 @@
 import {Component, OnInit} from '@angular/core';
 import {NS_ROUTER_DIRECTIVES} from 'nativescript-angular/router';
 import {Page} from 'ui/page';
+// src imports
 
 @Component({
   selector: 'rg-main',
@@ -10,6 +11,7 @@ import {Page} from 'ui/page';
 })
 export class AppComponent implements OnInit {
   constructor(private page: Page) {
+
   }
 
   public ngOnInit(): void {

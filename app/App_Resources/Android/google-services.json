@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "347401162774",
+    "firebase_url": "https://garage-control.firebaseio.com",
+    "project_id": "garage-control",
+    "storage_bucket": "garage-control.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347401162774:android:192a6a20ea490c4b",
+        "android_client_info": {
+          "package_name": "com.diegobarahona.garagecontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347401162774-5srsplg1ehjalmj5a6359hsu8ult3d0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI3O5OgMFVPwwQulgbBvKa41okZe2j39c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

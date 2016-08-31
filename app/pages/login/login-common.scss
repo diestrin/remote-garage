@@ -1,0 +1,46 @@
+@import "shared/styles/variables.scss";
+
+.background {
+  background-color: $open-color;
+}
+
+/* TODO: Assigning explicit heights and applying this margin shouldn’t be necessary. */
+.initial-container {
+  margin-top: 10;
+}
+
+.initial-logo {
+  horizontal-align: center;
+  margin-bottom: 10;
+}
+
+.initial-label {
+  color: $main-color;
+  horizontal-align: center;
+  margin-bottom: 10;
+}
+
+.initial-button {
+  height: 45;
+  width: 275;
+  vertical-align: center;
+  background-color: $main-color;
+  color: $open-color;
+  margin-top: 10;
+}
+
+.initial-button-label {
+  horizontal-align: center;
+  font-weight: bold;
+}
+
+Image {
+  margin-top: 5;
+  margin-bottom: 10;
+}
+
+Button, TextField {
+  margin-left: 16;
+  margin-right: 16;
+  margin-bottom: 10;
+}

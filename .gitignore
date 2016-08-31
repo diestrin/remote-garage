@@ -16,3 +16,4 @@ lib
 *.sublime-workspace
 *.sublime-project
 .vscode
+npm-debug.log
